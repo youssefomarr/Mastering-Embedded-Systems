@@ -15,7 +15,7 @@ int main(){
 	}
 	for( i=0; i<n ; i++){
 		printf("Enter a number: \n");
-		scanf("%f ", & arr[i]);
+		scanf("%f", & arr[i]);
 		sum+=arr[i];
 	}
 	avg = sum/n;
